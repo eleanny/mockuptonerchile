@@ -1,5 +1,7 @@
 body{
 	background-color: #ecf0f1;
+	padding: 0;
+	margin: 0;
 }
 h2,p{
    font-family: 'Raleway', sans-serif;	
@@ -145,7 +147,7 @@ h2{
   content: "";
   height: 100px;
   position: absolute;
-  width: 200px;
+  width: 20%;
   z-index: 2;
 }
 .slider::after {
@@ -166,14 +168,33 @@ h2{
 }
 .slider .slide {
   height: 100px;
-  width: 250px;
+  width: 25%;
 }
 @media only screen and (max-width: 767px){
+body{
+	padding: 25px;
+}
+
 .slider {
  width: 80%;
 }
-.img-ppal{
+.fondo{
  height: 300px;
 
+}
+.fab{
+	font-size: 30px;
+}
+.logo{
+	width: 80%;
+}
+.jumbotron{
+	height: 100px;
+}
+.lgt{
+	display: none;
+}
+.frm{
+	display: none;
 }
 }
