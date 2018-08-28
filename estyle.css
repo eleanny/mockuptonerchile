@@ -177,7 +177,7 @@ h2{
 }
 @media only screen and (max-width: 767px){
 body{
-	padding: 25px;
+	padding: 15px;
 }
 .nav-logo{
   display: inline;
@@ -185,7 +185,7 @@ body{
 }
 .frm-nav{
 	display: inline;
-	width: 30%;
+	width: 45%;
 	height: auto;
 }
 .slider {
