@@ -29,6 +29,9 @@ h2{
     left: 50%;
     transform: translate(-1%, -1%); 
 }
+.ppal{
+	font-weight: bold;
+}
 .navbar{
 	font-family: 'Montserrat', sans-serif;
 	font-size: 400;
@@ -51,8 +54,8 @@ h2{
 .trans{
 	
 	position: absolute;
-    top: 60%;
-    left: 50%;
+    top: 90%;
+    left: 70%;
     transform: translate(-50%, -50%);
 }
 .contenedor{
