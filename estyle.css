@@ -34,6 +34,9 @@ h2{
 	font-size: 400;
 	background-color: #4CB1FF;
 }
+.frm-nav{
+	display: none;
+}
 .jumbotron{
 	background-color: white;
 	height: 100px;
@@ -173,12 +176,16 @@ h2{
 body{
 	padding: 25px;
 }
-
+.frm-nav{
+	display: inline;
+	width: 30%;
+	height: auto;
+}
 .slider {
  width: 60%;
 }
 .fondo{
- height: 150px;
+ height: 250px;
 
 }
 .fab{
@@ -188,7 +195,7 @@ body{
 	width: 80%;
 }
 .jumbotron{
-	height: 100px;
+	display: none;
 }
 .lgt{
 	display: none;
