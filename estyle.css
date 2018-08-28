@@ -37,6 +37,9 @@ h2{
 .frm-nav{
 	display: none;
 }
+.nav-logo{
+  display: none;
+}
 .jumbotron{
 	background-color: white;
 	height: 100px;
@@ -175,6 +178,10 @@ h2{
 @media only screen and (max-width: 767px){
 body{
 	padding: 25px;
+}
+.nav-logo{
+  display: inline;
+  height: auto;
 }
 .frm-nav{
 	display: inline;
